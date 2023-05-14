@@ -73,7 +73,7 @@ export const Footer = () => (
               {column.links.map((link) => (
                 <li className="" key={link.title}>
                   <Link
-                    className="block mb-3 text-grey last:mb-0"
+                    className="block mb-3 text-grey hover:text-white transition-colors duration-300"
                     href={link.href}
                   >
                     {link.title}
